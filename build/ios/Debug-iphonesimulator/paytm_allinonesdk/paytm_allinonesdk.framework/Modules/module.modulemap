@@ -1,0 +1,11 @@
+framework module paytm_allinonesdk {
+  umbrella header "paytm_allinonesdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module paytm_allinonesdk.Swift {
+  header "paytm_allinonesdk-Swift.h"
+  requires objc
+}

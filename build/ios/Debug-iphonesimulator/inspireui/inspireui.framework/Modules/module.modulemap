@@ -1,0 +1,11 @@
+framework module inspireui {
+  umbrella header "inspireui-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module inspireui.Swift {
+  header "inspireui-Swift.h"
+  requires objc
+}
