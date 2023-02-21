@@ -57,7 +57,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAHD0uSae2GoHU050LIm2sTGq3sccHi_jc',
-    appId: '1:1567403296:android:a7f188acc0d6d13b897b45',
+    appId: '1:1567403296:android:3ea9a384740770b9897b45',
     messagingSenderId: '1567403296',
     projectId: 'africafood-3c342',
     storageBucket: 'africafood-3c342.appspot.com',
@@ -65,11 +65,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyA7MS_wTazWcAXpb0_DkE1Hu0KIIdODoGA',
-    appId: '1:1567403296:ios:4adefea9a2fbcfa8897b45',
+    appId: '1:1567403296:ios:56c360c20141e810897b45',
     messagingSenderId: '1567403296',
     projectId: 'africafood-3c342',
     storageBucket: 'africafood-3c342.appspot.com',
-    iosClientId: '1567403296-au3opo7k9rl0v244r6slkmnpl5b2sat3.apps.googleusercontent.com',
-    iosBundleId: 'y',
+    iosClientId: '1567403296-bvasqv804p1rtcplfq5gth69tmapfi0h.apps.googleusercontent.com',
+    iosBundleId: 'com.dynamic.africafood',
   );
 }

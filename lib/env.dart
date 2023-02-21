@@ -19,7 +19,7 @@ Map<String, dynamic> environment = {
 
   /// ➡️ lib/common/config/general.dart
   "defaultDarkTheme": false,
-  "enableRemoteConfigFirebase": false,
+  "enableRemoteConfigFirebase": true,
   "enableFirebaseAnalytics": false,
   "loginSMSConstants": {
     "countryCodeDefault": "US",
@@ -244,7 +244,7 @@ Map<String, dynamic> environment = {
 
     ///Support Digits : WordPress Mobile Number Signup and Login plugin (https://codecanyon.net/item/digits-wordpress-mobile-number-signup-and-login/19801105)
     "EnableDigitsMobileLogin": false,
-    "EnableDigitsMobileFirebase": false,
+    "EnableDigitsMobileFirebase": true,
 
     /// Enable Ajax Search Pro, https://your-domain/wp-json/ajax-search-pro/v0/woo_search?s=
     "AjaxSearchURL": "",
@@ -444,10 +444,10 @@ Map<String, dynamic> environment = {
     //The link your app will open
     "link": "https://mstore.io/",
     //----------* Android Setting *----------//
-    "androidPackageName": "com.inspireui.fluxstore",
+    "androidPackageName": "com.dynamic.africafood",
     "androidAppMinimumVersion": 1,
     //----------* iOS Setting *----------//
-    "iOSBundleId": "com.inspireui.mstore.flutter",
+    "iOSBundleId": "com.dynamic.africafood",
     "iOSAppMinimumVersion": "1.0.1",
     "iOSAppStoreId": "1469772800"
   },
