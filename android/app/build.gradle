@@ -101,7 +101,7 @@ android {
     }
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId envProperties['androidPackageName']
+        applicationId "com.dynamic.africafood"
         minSdkVersion 21
 //        targetSdkVersion flutter.targetSdkVersion
         targetSdkVersion 33
